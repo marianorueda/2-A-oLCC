@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(168, 148, 148);
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+#resultado1, #resultado2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+

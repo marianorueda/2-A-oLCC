@@ -1,0 +1,16 @@
+*{
+    background-color: blueviolet;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+#resultado{
+    font-size: x-large;
+}
+
+h1, form{
+    text-align: center;
+}

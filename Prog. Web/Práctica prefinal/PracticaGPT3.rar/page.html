@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="myScript.js" defer></script>
+</head>
+<body>
+    <h1>Simulador de Presupuesto de Viaje</h1>
+    <a href="https://youtu.be/YUt1qORrItw?si=hFYM0pPwlIOeoaxl">entrá</a>
+    <form action="">
+        <fieldset>
+            <legend>Ingrese los datos de su viaje:</legend>
+            <label for="destino">Destino: </label>
+            <input type="text" name="destino" id="destino"> <br>
+            <label for="dias">Cantidad de dias:</label>
+            <input type="number" id="dias" name="dias"> <br>
+            <label for="presupuesto">Presupuesto:</label>
+            <input type="number" name="presupuesto" id="presupuesto"> <br>
+            <select name="tipo" id="tipo">
+                <option value="">Elije una opcion</option>
+                <option value="economico">Economico</option>
+                <option value="estandar">Estandar</option>
+                <option value="lujoso">Lujoso</option>
+            </select>
+        </fieldset>
+    </form>
+    <div id="derecha">
+        <button type="submit" id="boton">Calcular</button>
+    </div>
+    <div id="info">
+
+    </div>
+</body>
+</html>

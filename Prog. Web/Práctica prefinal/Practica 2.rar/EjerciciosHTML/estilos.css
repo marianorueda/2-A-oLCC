@@ -1,0 +1,61 @@
+h1{
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center
+}
+
+h2{
+    color: brown;
+    font-style: unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://imgs.search.brave.com/HwO9P2aOCJsySE_tzXpFnxfTKyYk2KB1bOK0DsA6UW4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9wdWVyY29lc3Bp/bi1lc3BpbmEtbGFy/Z2EtdGFtYmllbi1j/b25vY2lkby1jb21v/LXBlei1nbG9iby1l/c3Bpbm9zby1kaW9k/b24taG9sb2NhbnRo/dXMtYmxhbmNvLWFp/c2xhZG9fMTkxOTcx/LTEyNzAxLmpwZz9z/ZW10PWFpc19oeWJy/aWQ);
+}
+
+*{
+    background-color: rgb(110, 114, 108);
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    background-color: violet;
+
+}
+
+.pepe{
+    background-image: url(https://imgs.search.brave.com/p_7qxbLxB4dL_r0xQ_-Po9SYqhOMTf9mn1BLLhZzS_k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYzLzdl/L2IxLzYzN2ViMTM2/NzY3N2EzZGNjZDBi/MzcwNzQ0MGM1M2E3/LmpwZw);
+}
+
+form{
+    background-color: blue;
+}
+
+fieldset{
+    background-color: brown;
+}
+
+legend{
+    background-color: aqua;
+}
+
+label{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input{
+    background-color: #9df;
+}
+textarea{
+    background-color: blueviolet;
+}
+select{
+    background-color: aquamarine;
+}
+button{
+    background-color: blueviolet;
+}

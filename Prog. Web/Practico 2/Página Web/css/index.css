@@ -1,0 +1,319 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y estética */
+    background-color: #343d2d; /* Color de fondo oscuro */
+    color: #e9ecef; /* Texto claro */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajuste de los tamaños en base a la pantalla */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343d2d;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+h4 {
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+
+.pb {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #e9ecef;
+}
+
+/* Estilos para el logo */
+.logo {
+    height: 100px;  /* Ajusta el tamaño del logo */
+    margin-right: 15px;
+}
+
+/* Estilos para el título de la empresa */
+.empresa {
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto */
+    font-size: 45px;
+    color: #759f57;
+    margin-right: 50px;  /* Espacio entre el logo y la barra de búsqueda */
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+    width: 250px;
+    font-family: 'Poppins', sans-serif; /* Aplica la nueva fuente */
+}
+
+.search-bar button {
+    background-color: #ce6c00;
+    border: none;
+    padding: 5px 10px;
+    color: #e9ecef;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; /* Aplica la nueva fuente */
+}
+
+/* Estilos para el nav */
+.nav {
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto para los enlaces */
+    font-size: 25px;
+    display: flex;
+}
+
+.nav a {
+    color: #e9ecef;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+ul li a.active {
+    color: #ce6c00; /* Color especial para el enlace activo */
+}
+
+/* Sección de productos */
+.productos {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    text-align: center;
+    margin: 5px;
+}
+
+.producto img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins para descripciones */
+    color: black;
+}
+
+.consulta-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.consulta-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif; /* Aplica Roboto para los títulos */
+}
+
+.product-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-description {
+    margin-left: 30px;
+    margin-top: 1em;
+}
+
+.button-container {
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 1em; /* Añade espacio entre los botones */
+    flex-wrap: wrap; /* Para que los botones se ajusten en múltiples líneas si es necesario en pantallas pequeñas */
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    display: inline-block; /* Cambia block a inline-block para evitar que tome todo el ancho */
+    width: auto; /* Deja que los botones se ajusten a su contenido */
+    max-width: none; /* Elimina el límite de ancho */
+    max-height: 60px;
+    padding: 1em;
+    background-color: #ce6c00;
+    color: #e9ecef;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carrito-button {
+    display: inline-block; /* Cambia block a inline-block para evitar que tome todo el ancho */
+    width: auto; /* Deja que los botones se ajusten a su contenido */
+    max-width: none; /* Elimina el límite de ancho */
+    padding: 1em;
+    background-color: #759f57;
+    color: #e9ecef;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Formulario de contacto */
+form {
+    color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #8ba668;
+    color: #e9ecef;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; /* Aplica la nueva fuente */
+}
+
+form button {
+    background-color: #e97721;
+    padding: 10px 20px;
+    color: #e9ecef;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer */
+footer {
+    background-color: #343d2d;
+    padding: 4vh 5vw;
+    text-align: center;
+    color: #e9ecef;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 2vh;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.mapa-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.mapa-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mapa-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+}
+
+.payment-methods {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.payment-methods h2 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.payment-methods img {
+    max-width: 50%;
+    height: auto;
+}
+
+.search-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ce6c00;
+    color: #e9ecef;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #b35900;
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .search-bar input {
+        width: 60vw;
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        width: 80vw;
+    }
+}

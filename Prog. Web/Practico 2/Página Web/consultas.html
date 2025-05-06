@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRORAWSON SRL</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="multimedia/logo_svg.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="multimedia/Logo.png" alt="Logo" class="logo">
+        <h1 class="empresa">AGRORAWSON SRL</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar Producto">
+            <a href="producto.html" class="search-button">Buscar</a>
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="consultas.html" class="active">Consultas</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="consulta-container">
+            <h2>Estamos para atender tu consulta</h2>
+
+            <form action="consultas.html" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="telefono" placeholder="Telefono" required>
+                <textarea name="consulta" placeholder="Dejanos tu consulta" rows="6" required></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </section>
+
+        <!-- Sección del Mapa -->
+        <section class="mapa-container">
+            <h2>¡Vení a visitarnos!</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.737639864669!2d-68.57156358813782!3d-31.558814074088822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96814060fbc1b331%3A0xd7e22e27e1ef7c78!2sAgro%20Rawson%20SRL!5e0!3m2!1ses!2sar!4v1727767116614!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+
+    </main>
+    
+    <footer>
+        <pb><strong>Dirección:</strong> Hipolito Irigoyen Sur 1170</pb>
+        <br>
+        <pb><strong>Contacto:</strong> +54 264 565 0961</pb>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/wVj64UMrTZkBQruB/?mibextid=qi2Omg" target="_blank">
+                <img src="multimedia/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/agrorawson?igsh=MTBxc3R5emg1YmM5bA==" target="_blank">
+                <img src="multimedia/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/2645651185" target="_blank">
+                <img src="multimedia/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

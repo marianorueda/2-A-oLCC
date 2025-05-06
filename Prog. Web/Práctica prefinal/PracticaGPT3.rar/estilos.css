@@ -1,0 +1,16 @@
+#derecha{
+    text-align: right;
+    margin-right: 20%;
+}
+
+*{
+    background-image: url(https://imgs.search.brave.com/_GqyprwFeU2bRuoWaZpmopqF6erKw5O5kzRxsd0vszY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/Y29uY2VwdG8tdmlh/amUtZXF1aXBhamUt/YWJpZXJ0b18yMy0y/MTQ5MDMwNTY3Lmpw/Zz9zZW10PWFpc19p/bmNvbWluZw);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+}
+

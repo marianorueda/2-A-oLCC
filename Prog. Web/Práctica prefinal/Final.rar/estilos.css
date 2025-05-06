@@ -1,0 +1,21 @@
+*{
+    background-color: rgba(186, 225, 231, 0.817);
+}
+
+#calculo{
+    color: white;
+    background-color: black;
+}
+
+form{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#resultado{
+    font-size: x-large;
+    background-color: rgb(87, 109, 251);
+}

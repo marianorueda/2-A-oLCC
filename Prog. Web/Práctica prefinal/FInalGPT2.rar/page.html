@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="myScript.js" defer></script>
+    </head>
+    <body>
+        <h1>Cuanta agua debes beber</h1>
+        <form action="">
+            <fieldset>
+                <legend>Ingrese sus datos:</legend>
+                <label for="peso">Peso(Kg): </label>
+                <input type="number" name="peso" id="peso"> <br>
+                <label for="act">Nivel de Actividad: </label>
+                <select name="act" id="act">
+                    <option value="">--Ingrese una Opcion--</option>
+                    <option value="sedentario">Sedentario</option>
+                    <option value="moderado">Moderado</option>
+                    <option value="activo">Activo</option>
+                </select> <br>
+            </fieldset>
+        </form>
+        <button id="boton">Calcular</button>
+        <p id="resultado"></p>
+    </body>
+</html>
